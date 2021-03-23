@@ -1,4 +1,4 @@
-from yeelight import Bulb, discover_bulbs, LightType
+from yeelight import Bulb, discover_bulbs
 from tabulate import tabulate
 
 headers = ['ID', 'IP', 'Name', 'Type']

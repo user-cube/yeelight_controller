@@ -43,6 +43,8 @@ def menu(bulbs):
         print("Please select a valid option")
         menu(bulbs)
 
-bulbs = discover_bulbs()
-list_info(bulbs)
-menu(bulbs)
+
+if __name__ == '__main__':
+    bulbs = discover_bulbs()
+    list_info(bulbs)
+    menu(bulbs)
