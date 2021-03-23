@@ -1,0 +1,4 @@
+future==0.18.2
+ifaddr==0.1.7
+tabulate==0.8.9
+yeelight==0.5.4
