@@ -13,7 +13,7 @@ def list_info(bulbs, force=False):
     if len(content) > 0:
         content.clear()
     for i in range(0, len(bulbs)):
-        content.append([i, bulbs[0]['ip'], bulbs[0]['capabilities']['name'], bulbs[0]['capabilities']['model']])
+        content.append([i, bulbs[i]['ip'], bulbs[i]['capabilities']['name'], bulbs[i]['capabilities']['model']])
     return bulbs
 
 
